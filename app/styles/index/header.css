@@ -1,0 +1,48 @@
+.header{
+    padding: 8rem 0;
+    background-image: url('/img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    background-color: #000;
+}
+
+.header__content{
+    position: relative;
+}
+
+@media (min-width: 768px) { 
+    .header__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header__logo{
+    flex: 0 0 25rem;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) { 
+    .header__logo{
+        margin-bottom: 0;
+    }
+}
+.header__logoimg{
+    max-width: 25rem;
+    margin: 0 auto;
+
+}
+

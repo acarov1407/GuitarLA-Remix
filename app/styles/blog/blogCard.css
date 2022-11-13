@@ -1,0 +1,62 @@
+.blogCard {
+    margin: 0 auto 6rem auto;
+}
+
+.blogCard--card-view{
+    max-width: 35rem;
+}
+
+.blogCard--entry-view{
+    max-width: 70rem;
+}
+
+
+@media (min-width: 768px) {
+    .blogCard {
+        margin-bottom: 0;
+    }
+}
+
+
+
+.blogCard__texts {
+    padding: 0 1.5rem;
+}
+
+.blogCard__title {
+    font-weight: 900;
+}
+
+
+.blogCard__date {
+    color: var(--primary);
+    font-size: 1.8rem;
+}
+
+.blogCard__content{
+    text-align: justify;
+}
+
+.blogCard__content--card-view {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.blogCard__cta {
+    display: block;
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: background-color .3s;
+}
+
+.blogCard__cta:hover {
+    background-color: var(--primary);
+}
+

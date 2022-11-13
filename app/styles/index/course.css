@@ -1,0 +1,33 @@
+.course{
+    margin: 6rem 0;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.course__heading{
+    margin-top: 0;
+}
+
+.course__texts{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.course__paragraph{
+    color: var(--white);
+    text-align: center;
+}
+
+@media (min-width: 768px) { 
+    .course__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course__texts{
+        grid-column: 2 / 3;
+    }
+}

@@ -1,0 +1,21 @@
+.blog{
+    padding: 5rem 0;
+}
+
+.blog__heading{
+    margin-top: 0;
+}
+
+@media (min-width: 768px) { 
+    .blog__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 1220px) { 
+    .blog__content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

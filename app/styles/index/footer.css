@@ -1,0 +1,26 @@
+.footer{
+    padding: 6rem 0;
+    background-color: var(--black);
+}
+
+
+
+@media (min-width: 768px) { 
+    .footer__content{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer__copyright{
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) { 
+    .footer__copyright{
+        margin-top: 0;
+    }
+}

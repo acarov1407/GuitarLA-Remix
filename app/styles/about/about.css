@@ -1,0 +1,27 @@
+.about{
+    padding: 5rem 0;
+}
+
+@media (min-width: 992px) { 
+    .about__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: center;
+    }
+}
+
+.about__heading{
+    margin-top: 0;
+}
+
+
+.about__texts{
+    margin-top: 4rem;
+}
+
+@media (min-width: 992px) { 
+    .about__texts{
+        margin-top: 0;
+    }
+}
